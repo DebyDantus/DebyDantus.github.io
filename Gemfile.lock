@@ -9,7 +9,13 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     addressable (2.3.8)
+    autoprefixer-rails (6.1.0.1)
+      execjs
+      json
     blankslate (2.1.2.4)
+    bootstrap-sass (3.3.5.1)
+      autoprefixer-rails (>= 5.0.0.1)
+      sass (>= 3.3.0)
     classifier-reborn (2.0.4)
       fast-stemmer (~> 1.0)
     coffee-script (2.4.1)
@@ -126,7 +132,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages
+  bootstrap-sass (~> 3.3.5)
+  github-pages (= 39)
+  json
 
 BUNDLED WITH
    1.10.6
