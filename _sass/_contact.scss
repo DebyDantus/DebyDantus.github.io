@@ -1,16 +1,7 @@
-body::after {
-	content: "";
-	@include background-image(url("../assets/images/fall_background.jpg"));
-	opacity: 0.8;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	@include position(absolute);
-	z-index: -1;
-}
-
-.mission__wrapper {
+.contact-header__wrapper {
+	border-bottom: 0;
+	text-align: center;
+	padding: 0;
 	background-color: rgba(255,255,255,0.3);
 	-webkit-filter: blur(3px);
 	-moz-filter: blur(3x);
@@ -22,9 +13,9 @@ body::after {
     overflow: hidden;
 }
 
-h1.mission__text {
+h1.contact-header__text {
 	position: relative;
-	top: 3.5em;
+	top: 2.2em;
 	color: $white !important;
 	text-align: center;
 }
