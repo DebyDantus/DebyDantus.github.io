@@ -17,3 +17,5 @@ url: "http://debydantus.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+
+gems: [bourbon, neat, bootstrap-sass]

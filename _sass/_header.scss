@@ -1,0 +1,19 @@
+.site-header {
+	@include background(white);
+	border: 0;
+}
+
+.site-title {
+	margin-left: 40px;
+	color: $green-med !important;
+}
+
+.site-nav {
+	margin-right: 40px;
+	font-size: 1.2em;
+}
+
+.nav__link {
+	margin-left: 10px;
+	color: $brown !important;
+}
