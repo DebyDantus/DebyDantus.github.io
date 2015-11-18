@@ -59,9 +59,8 @@ $on-laptop:        800px;
 ;
 
 // Import bootstrap
-@import "bootstrap";
-@import "bourbon";
-@import "neat";
+@import "../_sass/assets/bootstrap";
+@import "../_sass/assets/bourbon/bourbon";
 
 // Import custom page css
 @import 
