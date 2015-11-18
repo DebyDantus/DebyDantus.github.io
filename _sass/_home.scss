@@ -10,3 +10,20 @@ body::after {
 	z-index: -1;
 }
 
+.mission__wrapper {
+	background-color: rgba(255,255,255,0.3);
+	-webkit-filter: blur(3px);
+	-moz-filter: blur(3x);
+	-o-filter: blur(3px);
+	-ms-filter: blur(3px);
+	filter: blur(3px);
+	text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+h1.mission__text {
+	position: relative;
+	top: 3.5em;
+	color: $white !important;
+}
